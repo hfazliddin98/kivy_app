@@ -57,7 +57,7 @@ class LoginApp(MDApp):
 
         # Simple login tekshiruvi
         if username == "user" and password == "pass":
-            result_label.text = "Login successful!"
+            result_label.text = "Login successful!" 
             result_label.theme_text_color = "Primary"  # Muvaffaqiyatli xabar rangi
         else:
             result_label.text = "Invalid username or password."
